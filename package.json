@@ -1,0 +1,32 @@
+{
+  "name": "c8christmas2016",
+  "version": "1.0.0",
+  "description": "C8 present for Christmas 2016.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build": "gulp"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Circul8/c8christmas2016.git"
+  },
+  "keywords": [
+    "circul8",
+    "christmas",
+    "present"
+  ],
+  "author": "Jan Blasko <info@144.wtf>",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/Circul8/c8christmas2016/issues"
+  },
+  "homepage": "https://github.com/Circul8/c8christmas2016#readme",
+  "devDependencies": {
+    "babel-polyfill": "^6.20.0",
+    "babel-preset-es2015": "^6.18.0",
+    "gulp": "^3.9.1",
+    "gulp-babel": "^6.1.2",
+    "gulp-concat": "^2.6.1"
+  }
+}
