@@ -1,6 +1,6 @@
 # c8christmas2016.js
 
-Circul8 present for Christmas 2016 🎅 🎄 🎁
+Circul8 present for Christmas 2016 🎅 🎄 🎁 stacked with latest javscript technologies like [ES6](https://en.wikipedia.org/wiki/ECMAScript), [generators](https://en.wikipedia.org/wiki/ECMAScript) and [Fetch API](https://developer.mozilla.org/en-US/docs/Web/API/Fetch_API).
 
 ## Demo
 TBA
@@ -12,3 +12,4 @@ TBA
 
 ## Reference
 - Music: https://www.youtube.com/watch?v=625yjkV2WHE
+- Slightly modified [console.ascii](https://github.com/Circul8/c8christmas2016)
