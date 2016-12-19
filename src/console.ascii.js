@@ -202,7 +202,11 @@
 					this.run(response.payload[0].svg.png_thumb);
 				})
 				.catch(err => {
-					console.warn(err);
+					this.sourceSettings = {
+						api_key: 'd151bf4cdfe5b42ae4ad3f8978591326'
+					};
+					this.color = true;
+					this.flickr(search);
 				});
 		}
 
