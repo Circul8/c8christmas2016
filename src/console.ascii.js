@@ -85,6 +85,12 @@
 		}
 
 
+		gaq(action, label) {
+			const _gaq = window._gaq || [];
+			_gaq.push(['_trackEvent', 'Christmas2016', action, label]);
+		}
+
+
 		/**
 		 * Get the image URL and convert it to ASCII
 		 * @param  {string} url URL of image to convert.
@@ -199,9 +205,11 @@
 					console.log('Dusting off red suit...');
 					console.log('Checking the naughty list...');
 					console.log('Reaching into brown sack....');
+					this.gaq('present', search);
 					this.run(response.payload[0].svg.png_thumb);
 				})
 				.catch(err => {
+					this.gaq('present not foud', search);
 					this.sourceSettings = {
 						api_key: 'd151bf4cdfe5b42ae4ad3f8978591326'
 					};
@@ -242,7 +250,8 @@
 					this.run(`https://farm${photo.farm}.staticflickr.com/${photo.server}/${photo.id}_${photo.secret}_t.jpg`);
 				})
 				.catch(err => {
-					console.warn(err);
+					//console.warn(err);
+					console.log('🎅: I am deeply sorry, I could not find any gift for you. Try it again!');
 				});
 		}
 
