@@ -1,6 +1,6 @@
 # c8christmas2016.js
 
-Circul8 present for Christmas 2016 🎅 🎄 🎁 stacked with latest javscript technologies like [ES6](https://en.wikipedia.org/wiki/ECMAScript), [generators](https://en.wikipedia.org/wiki/ECMAScript) and [Fetch API](https://developer.mozilla.org/en-US/docs/Web/API/Fetch_API).
+Circul8 present for Christmas 2016 🎅 🎄 🎁 stacked with latest javscript technologies like [ES6](https://en.wikipedia.org/wiki/ECMAScript), [generators](https://en.wikipedia.org/wiki/ECMAScript), [rest parameters](https://developer.mozilla.org/en/docs/Web/JavaScript/Reference/Functions/rest_parameters), [destructuring](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Operators/Destructuring_assignment), [Promises](https://developer.mozilla.org/en/docs/Web/JavaScript/Reference/Global_Objects/Promise) and [Fetch API](https://developer.mozilla.org/en-US/docs/Web/API/Fetch_API).
 
 ## Demo
 TBA
